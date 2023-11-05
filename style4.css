@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  position: relative;
+}
+
+.two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.three {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.four {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

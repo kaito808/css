@@ -1,0 +1,104 @@
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(0, 166, 255);
+  color: white;
+  margin: 50px auto;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(1, 136, 226);
+  cursor: pointer;
+}
+
+button:focus {
+  padding: 13px 19px;
+}
+
+/* mock 2 */
+
+.card {
+  border-radius: 5px;
+  box-shadow: grey;
+  width: 450px;
+  background-color: rgb(207, 207, 207);
+  border: grey;
+}
+
+.img {
+  background-image: url("https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg");
+  padding-bottom: 65%;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px;
+}
+
+.description {
+  padding: 18px;
+  border-top: 1px solid grey;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* part 3 */
+.tiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tile {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  border: 8px solid lightcoral;
+  background-color: lightcoral;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.gif1 {
+  background-image: url("https://media4.giphy.com/media/cno2xWuCqkG6A/giphy.gif?cid=ecf05e47rtoi7hfcyx45tq3ujwxtt7vta1yfbebt5haek7vx&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+.gif2 {
+  background-image: url("https://media4.giphy.com/media/IjqQyPIifTyjIaTMNT/giphy.gif?cid=ecf05e47n6mwmtfynis8pz2vr37u49d9i5se935k3ct0n4oa&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+.gif3 {
+  background-image: url("https://media1.giphy.com/media/13zazU4zSlJCiA/giphy.gif?cid=ecf05e47hozsoecagphsi0cuo0q57bbhdoa75tp813gs3501&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+.caption {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  transition: top 0.6s;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.tile:hover .caption {
+  top: 0;
+}
